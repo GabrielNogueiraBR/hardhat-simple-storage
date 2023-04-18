@@ -1,9 +1,11 @@
 import { HardhatUserConfig } from "hardhat/config"
+
 import "@nomicfoundation/hardhat-toolbox"
 import "@nomiclabs/hardhat-etherscan"
 import "hardhat-gas-reporter"
-import * as dotenv from "dotenv"
+import "solidity-coverage"
 
+import * as dotenv from "dotenv"
 import "./tasks/block-number"
 
 dotenv.config()

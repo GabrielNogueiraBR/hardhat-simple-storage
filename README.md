@@ -33,3 +33,7 @@ yarn add --dev @nomiclabs/hardhat-etherscan
 ````bash
 yarn add --dev hardhat-gas-reporter
 ```
+
+````bash
+yarn add --dev solidity-coverage
+```
