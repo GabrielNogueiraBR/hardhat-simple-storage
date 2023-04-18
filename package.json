@@ -5,6 +5,9 @@
   "repository": "git@github.com:GabrielNogueiraBR/hardhat-simple-storage-fcc.git",
   "author": "Gabriel Nogueira <gabrielnoog7@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "deploy:sepolia": "hardhat run scripts/deploy.ts --network sepolia"
+  },
   "devDependencies": {
     "@ethersproject/abi": "^5.4.7",
     "@ethersproject/providers": "^5.4.7",
