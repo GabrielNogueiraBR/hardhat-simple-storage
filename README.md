@@ -26,14 +26,20 @@ yarn add --dev prettier prettier-plugin-solidity
 yarn add --dev dotenv
 ```
 
-````bash
+```bash
 yarn add --dev @nomiclabs/hardhat-etherscan
 ```
 
-````bash
-yarn add --dev hardhat-gas-reporter
+## Para verificar o preço em Gas de cada função do teste
+
+```bash
+  yarn add --dev hardhat-gas-reporter
+  yarn hardhat test
 ```
 
-````bash
-yarn add --dev solidity-coverage
+## Para verificar a Cobertura de Testes
+
+```bash
+  yarn add --dev solidity-coverage
+  yarn hardhat coverage
 ```
