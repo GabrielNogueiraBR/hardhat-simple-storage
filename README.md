@@ -25,3 +25,7 @@ yarn add --dev prettier prettier-plugin-solidity
 ```bash
 yarn add --dev dotenv
 ```
+
+````bash
+yarn add --dev @nomiclabs/hardhat-etherscan
+```
