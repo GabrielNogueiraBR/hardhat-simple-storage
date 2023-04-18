@@ -12,6 +12,7 @@ async function main() {
     console.log(`Contract address: ${simpleStorage.address}`)
 
     if (network.config.chainId === 11155111 && process.env.ETHERSCAN_API_KEY) {
+        console.log("Waiting for block transactions...")
         await simpleStorage.deployTransaction.wait(6)
         await verify(simpleStorage.address, [])
     }
