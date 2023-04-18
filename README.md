@@ -29,3 +29,7 @@ yarn add --dev dotenv
 ````bash
 yarn add --dev @nomiclabs/hardhat-etherscan
 ```
+
+````bash
+yarn add --dev hardhat-gas-reporter
+```
