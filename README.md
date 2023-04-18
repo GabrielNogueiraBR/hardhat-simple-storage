@@ -1,4 +1,4 @@
-# hardhat-simple-storage-fcc
+# Hardhat Simple Storage
 
 ## Setup
 
@@ -16,3 +16,12 @@ Welcome to Hardhat v2.14.0
 ✔ Do you want to install this sample project's dependencies with yarn (@nomicfoundation/hardhat-toolbox @nomicfoundation/hardhat-network-helpers @nomicfoundation/hardhat-chai-matchers @nomiclabs/hardhat-ethers @nomiclabs/hardhat-etherscan chai ethers hardhat-gas-reporter solidity-coverage @typechain/hardhat typechain @typechain/ethers-v5 @ethersproject/abi @ethersproject/providers @types/chai @types/mocha @types/node ts-node typescript)? (Y/n) · y
 ```
 
+- Change `hardhat.config.ts` solidity compiler version
+
+```bash
+yarn add --dev prettier prettier-plugin-solidity
+```
+
+```bash
+yarn add --dev dotenv
+```
