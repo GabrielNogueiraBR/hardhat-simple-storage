@@ -3,6 +3,8 @@ import "@nomicfoundation/hardhat-toolbox"
 import "@nomiclabs/hardhat-etherscan"
 import * as dotenv from "dotenv"
 
+import "./tasks/block-number"
+
 dotenv.config()
 
 const SEPOLIA_RPC_URL = process.env.SEPOLIA_RPC_URL!
