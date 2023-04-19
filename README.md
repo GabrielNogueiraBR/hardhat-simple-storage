@@ -1,4 +1,5 @@
 # Hardhat Simple Storage
+[Learn Blockchain, Solidity, and Full Stack Web3 Development with JavaScript](https://www.youtube.com/watch?v=gyMwXuJrbJQ&t=30017s&ab_channel=freeCodeCamp.org)
 
 ## Setup
 
